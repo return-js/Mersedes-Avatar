@@ -56,6 +56,10 @@ ul {
   height: 100px;
 }
 
+.header__logo {
+  margin-left: 116px;
+}
+
 .list {
   display: flex;
 }
@@ -101,7 +105,7 @@ ul {
   bottom: -25px;
 }
 .title {
-  font-family: 'Corporate-A-Bold';
+  font-family: 'Corporate-A-Bold', sans-serif;
   margin-bottom: 5px;
   font-size: 72px;
   line-height: 120%;
@@ -112,4 +116,113 @@ ul {
   font-size: 24px;
   text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   margin-bottom: 50px;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
+.concept {
+  padding-top: 150px;
+  margin-bottom: 150px;
+}
+
+.concept__inner {
+  max-width: 900px;
+  margin-left: auto;
+}
+
+.section__title {
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  color: #F402A2;
+  font-family: 'Corporate-A-Bold', sans-serif;
+}
+
+.concept__text {
+  font-size: 24px;
+  margin-bottom: 25px;
+  line-height: 120%;
+}
+
+.premier {
+  margin-bottom: 150px;
+}
+
+.premier__inner {
+  display: flex;
+  gap: 60px;
+}
+
+.premier__text {
+  margin-bottom: 22px;
+}
+
+.premier__img {
+  margin-bottom: 20px;
+}
+
+.premier__btn {
+  font-family: 'Corporate-A-Bold', sans-serif;
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  line-height: 120%;
+  color: #F402A2;
+  text-align: center;
+  padding: 14px;
+  border: 1px solid #F402A2;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.premier__btn:hover {
+  color: #53A1CB;
+  border: 1px solid #53A1CB;
+}
+
+.video {
+  margin-bottom: 150px;
+}
+
+.video__img {
+  margin-bottom: 25px;
+}
+
+.video__btn {
+  font-family: 'Corporate-A-Bold', sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  font-size: 18px;
+  line-height: 120%;
+  color: #F402A2;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid #F402A2;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.video__btn span {
+  padding-top: 2px;
+}
+
+.video__btn:hover {
+  color: #53A1CB;
+  border: 1px solid #53A1CB;
+}
+
+.video__btn path {
+  transition: all .3s;
+}
+
+.video__btn:hover path {
+  fill: #53A1CB;
 }
