@@ -236,6 +236,7 @@ ul {
   grid-template-columns: 255px 255px auto 330px;
   grid-template-rows: auto auto;
   gap: 14px 44px;
+  margin-bottom: 100px;
 }
 
 .design__cell-one {
@@ -257,4 +258,54 @@ ul {
 
 .design__cell-text {
   margin-bottom: 15px;
+}
+
+.design-slider__item {
+  margin: 0 30px;
+}
+
+.slick-track {
+  margin-left: -30px;
+}
+
+.design-slider {
+  margin-bottom: 25px;
+}
+
+.arrow {
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+  bottom: -25px;
+  left: 50%;
+}
+
+.arrow-left {
+  transform: translateX(-80px);
+}
+
+.arrow-right {
+  transform: translateX(30px);
+}
+
+.design__box {
+  max-width: 590px;
+  margin: 150px auto;
+  padding: 0 10px;
+  display: flex;
+  gap: 60px;
+}
+
+.design__box-column {
+  width: 255px;
+}
+
+.design__box-text {
+  margin-bottom: 15px;
+}
+
+.design__img {
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
 }
